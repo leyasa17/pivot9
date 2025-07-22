@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>Pivot9 - Sales Acceleration for Cybersecurity Companies</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet"/>
+<script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        'pivot-blue': '#33A9DD',
+                        'pivot-dark': '#0F3B5F',
+                        'pivot-light': '#F8F9FA',
+                    }
+                }
+            }
+        }
+    </script>
+<style>
+        .hero-gradient {
+            background: linear-gradient(135deg, rgba(51,169,221,0.1) 0%, rgba(255,255,255,1) 100%);
+        }
+        .service-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .client-logo {
+            filter: grayscale(100%);
+            opacity: 0.7;
+            transition: all 0.3s ease;
+        }
+        .client-logo:hover {
+            filter: grayscale(0);
+            opacity: 1;
+        }
+    </style>
+</head>
+<body class="font-sans antialiased text-pivot-dark">
+<!-- נגישות: כפתור דילוג לתוכן -->
+<a class="sr-only focus:not-sr-only focus:ring-2 focus:ring-offset-2 focus:ring-pivot-blue bg-pivot-blue text-white px-4 py-2 rounded z-50" href="#main-content">
+  Skip to main content
+</a>
+<!-- נגישות: כפתור דילוג לתוכן -->
+<a class="sr-only focus:not-sr-only absolute top-2 left-2 bg-pivot-blue text-white px-4 py-2 rounded z-50" href="#main-content">
+  Skip to main content
+</a>
+<!-- Navigation -->
+<header class="sticky top-0 z-50 bg-white shadow-sm">
+<div class="container mx-auto px-6 py-4 relative flex items-center justify-center">
+<div class="flex items-center justify-between">
+<div class="absolute left-0">
+<a class="flex items-center" href="#">
+<img alt="Pivot9 Logo" class="h-12 w-auto" src="Image.png"/>
+<span class="ml-0 text-xl font-bold">Pivot<span class="text-Pivot-blue">9</span></span>
+</a>
+</div>
+<nav aria-label="Main navigation" class="hidden md:flex space-x-8">
+<a class="text-sm font-medium hover:text-pivot-blue transition" href="#home">Home</a>
+<a class="text-sm font-medium hover:text-pivot-blue transition" href="#services">Services</a>
+<a class="text-sm font-medium hover:text-pivot-blue transition" href="#why">Why Pivot9</a>
+<a class="text-sm font-medium hover:text-pivot-blue transition" href="#about">About</a>
+<a class="text-sm font-medium hover:text-pivot-blue transition" href="#insights">Insights</a>
+<a class="text-sm font-medium hover:text-pivot-blue transition" href="#contact">Contact</a>
+</nav>
+<div class="md:hidden">
+<button aria-controls="mobile-menu" aria-expanded="false" aria-label="Action" class="text-pivot-dark focus:outline-none" onclick="document.getElementById('mobile-menu').classList.toggle('hidden');">
+<svg class="h-6 w-6" fill="none" stroke="currentColor" viewbox="0 0 24 24">
+<path d="M4 6h16M4 12h16M4 18h16" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+</svg>
+</button>
+</div><div aria-label="Mobile navigation" class="md:hidden hidden mt-4 space-y-2" id="mobile-menu"><a class="block text-sm text-pivot-dark hover:text-pivot-blue transition px-4 py-2" href="#home">Home</a><a class="block text-sm text-pivot-dark hover:text-pivot-blue transition px-4 py-2" href="#services">Services</a><a class="block text-sm text-pivot-dark hover:text-pivot-blue transition px-4 py-2" href="#why">Why Pivot9</a><a class="block text-sm text-pivot-dark hover:text-pivot-blue transition px-4 py-2" href="#about">About</a><a class="block text-sm text-pivot-dark hover:text-pivot-blue transition px-4 py-2" href="#insights">Insights</a><a class="block text-sm text-pivot-dark hover:text-pivot-blue transition px-4 py-2" href="#contact">Contact</a></div>
+</div>
+</div>
+</header>
+<!-- Hero Section -->
+<main id="main-content">
+<section class="hero-gradient py-20 md:py-32" id="home">
+<div class="container mx-auto px-6">
+<div class="max-w-3xl mx-auto text-center">
+<h1 class="text-4xl md:text-5xl font-bold leading-tight mb-6"><span class="text-pivot-blue">The Algorithm for Opportunity</span></h1>
+<p class="text-xl md:text-2xl text-gray-600 mb-10">Pivot9 delivers high-quality, sales-ready meetings for cybersecurity companies. We combine expert SDRs with intelligent data to connect you directly with qualified buyers.</p>
+<a class="inline-block bg-pivot-blue hover:bg-blue-500 text-white font-bold py-3 px-8 rounded-full transition duration-300 transform hover:scale-105 shadow-lg" href="#contact">
+                    Schedule Your Strategy Call
+                </a>
+</div>
+</div>
+</section>
+<!-- Social Proof -->
+<section class="py-12 bg-pivot-light">
+<div class="container mx-auto px-6">
+<h2 class="text-center text-2xl font-semibold mb-12">Trusted by the Innovators in Cybersecurity</h2>
+<div class="flex flex-wrap justify-center items-center gap-10 md:gap-16">
+<img alt="Client logo" class="h-12 client-logo" src="https://via.placeholder.com/150x60?text=Client+1"/>
+<img alt="Client logo" class="h-12 client-logo" src="https://via.placeholder.com/150x60?text=Client+2"/>
+<img alt="Client logo" class="h-12 client-logo" src="https://via.placeholder.com/150x60?text=Client+3"/>
+<img alt="Client logo" class="h-12 client-logo" src="https://via.placeholder.com/150x60?text=Client+4"/>
+<img alt="Client logo" class="h-12 client-logo" src="https://via.placeholder.com/150x60?text=Client+5"/>
+</div>
+</div>
+</section>
+<!-- Services -->
+<section class="py-20" id="services">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold text-center mb-16">A Full-Funnel Engine for Your Sales Pipeline</h2>
+<div class="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Service Card 1 -->
+<div class="service-card bg-white p-8 rounded-xl shadow-md border border-gray-100 transition duration-300">
+<div class="w-14 h-14 bg-pivot-blue bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+<i class="fas fa-users text-pivot-blue text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-4">SDR as a Service</h3>
+<p class="text-gray-600">Our dedicated Sales Development Representatives become a seamless extension of your team. They handle the outreach, qualification, and meeting-setting, so your closers can focus on what they do best: closing.</p>
+</div>
+<!-- Service Card 2 -->
+<div class="service-card bg-white p-8 rounded-xl shadow-md border border-gray-100 transition duration-300">
+<div class="w-14 h-14 bg-pivot-blue bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+<i class="fas fa-chart-line text-pivot-blue text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-4">BDR as a Service</h3>
+<p class="text-gray-600">Need to build a pipeline from the ground up? Our Business Development Representatives identify key accounts, build targeted lists, and execute strategic outreach campaigns to generate initial interest and brand awareness in your target markets.</p>
+</div>
+<!-- Service Card 3 -->
+<div class="service-card bg-white p-8 rounded-xl shadow-md border border-gray-100 transition duration-300">
+<div class="w-14 h-14 bg-pivot-blue bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+<i class="fas fa-database text-pivot-blue text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-4">Data Enrichment &amp; Lead Verification</h3>
+<p class="text-gray-600">Don't waste time on dead ends. We use AI-powered processes to enrich your existing data and verify every lead, ensuring your sales team engages with accurate contacts at the right companies, every time.</p>
+</div>
+<!-- Service Card 4 -->
+<div class="service-card bg-white p-8 rounded-xl shadow-md border border-gray-100 transition duration-300">
+<div class="w-14 h-14 bg-pivot-blue bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+<i class="fab fa-linkedin-in text-pivot-blue text-2xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-4">LinkedIn Campaign Management</h3>
+<p class="text-gray-600">Leverage the world's largest professional network. We design and manage hyper-targeted LinkedIn campaigns that position you as a thought leader and generate inbound interest from key decision-makers in the cybersecurity ecosystem.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Why Pivot9 -->
+<section class="py-20 bg-pivot-light" id="why">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold text-center mb-16">The Pivot9 Advantage</h2>
+<div class="grid md:grid-cols-2 gap-12">
+<!-- Advantage 1 -->
+<div class="flex">
+<div class="mr-6">
+<div class="w-14 h-14 bg-pivot-blue bg-opacity-10 rounded-full flex items-center justify-center">
+<i class="fas fa-shield-alt text-pivot-blue text-2xl"></i>
+</div>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-3">Cybersecurity is Our Only Focus</h3>
+<p class="text-gray-600">We don't dilute our expertise. We live and breathe cybersecurity, understanding its unique challenges, buyer personas, and sales cycles. This specialization translates into more meaningful conversations and better results.</p>
+</div>
+</div>
+<!-- Advantage 2 -->
+<div class="flex">
+<div class="mr-6">
+<div class="w-14 h-14 bg-pivot-blue bg-opacity-10 rounded-full flex items-center justify-center">
+<i class="fas fa-brain text-pivot-blue text-2xl"></i>
+</div>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-3">Intelligence-Driven Quality</h3>
+<p class="text-gray-600">It's not about the quantity of leads; it's about precision. Our AI-driven process analyzes thousands of data points to identify prospects with the highest intent, ensuring every meeting we book has a genuine potential for conversion.</p>
+</div>
+</div>
+<!-- Advantage 3 -->
+<div class="flex">
+<div class="mr-6">
+<div class="w-14 h-14 bg-pivot-blue bg-opacity-10 rounded-full flex items-center justify-center">
+<i class="fas fa-laptop-code text-pivot-blue text-2xl"></i>
+</div>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-3">Tech-Savvy Sales Professionals</h3>
+<p class="text-gray-600">Our SDRs and BDRs have technical backgrounds. They can speak your language and the language of your prospects, holding credible conversations that build trust and effectively communicate your value proposition from the very first touchpoint.</p>
+</div>
+</div>
+<!-- Advantage 4 -->
+<div class="flex">
+<div class="mr-6">
+<div class="w-14 h-14 bg-pivot-blue bg-opacity-10 rounded-full flex items-center justify-center">
+<i class="fas fa-robot text-pivot-blue text-2xl"></i>
+</div>
+</div>
+<div>
+<h3 class="text-xl font-bold mb-3">AI-Powered Efficiency</h3>
+<p class="text-gray-600">We leverage automation and AI to streamline prospecting, outreach, and follow-up, allowing our human experts to focus on what matters most: building relationships. This hybrid approach delivers speed, scale, and quality.</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Us -->
+<section class="py-20" id="about">
+<div class="container mx-auto px-6">
+<div class="max-w-4xl mx-auto text-center">
+<h2 class="text-3xl font-bold mb-8">We're Your Pivot to Growth</h2>
+<p class="text-xl text-gray-600 mb-10">
+                    More players and more complexities are vying for attention in the cybersecurity space. Innovative solutions have a hard time getting through to the companies who could benefit the most from them. To close that gap, Pivot9 was established.
+                </p>
+<p class="text-xl text-gray-600 mb-10">
+                    Our goal is straightforward: to introduce cutting-edge cybersecurity firms to potential new clients. We are a group of data scientists, techies, and seasoned salespeople who are enthusiastic about driving expansion in the cybersecurity sector.
+                </p>
+<p class="text-xl text-gray-600">
+                    Together, we create the strong sales pipeline that will propel your business to new heights.
+                </p>
+</div>
+</div>
+</section>
+<!-- Insights -->
+<section class="py-20 bg-pivot-light" id="insights">
+<div class="container mx-auto px-6">
+<h2 class="text-3xl font-bold text-center mb-16">Latest Insights from the Cyber Sales Frontline</h2>
+<div class="grid md:grid-cols-3 gap-8">
+<!-- Blog Card 1 -->
+<div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+<img alt="Blog post image" class="w-full h-48 object-cover" src="https://via.placeholder.com/600x400?text=Blog+Post"/>
+<div class="p-6">
+<h3 class="text-xl font-bold mb-3">The Art of the Follow-Up: How to Stay Top-of-Mind in a 6-Month Sales Cycle</h3>
+<p class="text-gray-600 mb-4">In cybersecurity sales, the first 'no' is rarely the last word. Here's our proven framework for nurturing long-term leads...</p>
+<a class="text-pivot-blue font-medium hover:underline" href="#">Read More</a>
+</div>
+</div>
+<!-- Blog Card 2 -->
+<div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+<img alt="Blog post image" class="w-full h-48 object-cover" src="https://via.placeholder.com/600x400?text=Blog+Post"/>
+<div class="p-6">
+<h3 class="text-xl font-bold mb-3">Beyond the CISO: Identifying the New Economic Buyers in Cyber</h3>
+<p class="text-gray-600 mb-4">The CISO is no longer the only decision-maker. Discover how to identify and engage the entire buying committee...</p>
+<a class="text-pivot-blue font-medium hover:underline" href="#">Read More</a>
+</div>
+</div>
+<!-- Blog Card 3 -->
+<div class="bg-white rounded-xl overflow-hidden shadow-md hover:shadow-lg transition duration-300">
+<img alt="Blog post image" class="w-full h-48 object-cover" src="https://via.placeholder.com/600x400?text=Blog+Post"/>
+<div class="p-6">
+<h3 class="text-xl font-bold mb-3">Is AI Replacing SDRs? Not So Fast. Here's How We Use it to Supercharge Them.</h3>
+<p class="text-gray-600 mb-4">We break down the hype and show how AI is the ultimate tool for, not a replacement for, elite sales professionals...</p>
+<a class="text-pivot-blue font-medium hover:underline" href="#">Read More</a>
+</div>
+</div>
+</div>
+<div class="text-center mt-12">
+<a class="inline-block bg-pivot-blue hover:bg-blue-500 text-white font-bold py-3 px-8 rounded-full transition duration-300" href="#">
+                    Read More on Our Blog
+                </a>
+</div>
+</div>
+</section>
+<!-- Contact Us -->
+<section class="py-20" id="contact">
+<div class="container mx-auto px-6">
+<div class="max-w-4xl mx-auto">
+<h2 class="text-3xl font-bold text-center mb-4">Ready to Accelerate Your Growth?</h2>
+<p class="text-xl text-gray-600 text-center mb-12">Let's talk about your goals. Fill out the form below or schedule a call directly, and we'll show you how Pivot9 can build your sales pipeline, faster.</p>
+<div class="grid md:grid-cols-2 gap-12">
+<!-- Contact Form -->
+<div>
+<form action="https://getform.io/f/boloeowa" class="space-y-6" method="POST">
+<input name="_redirect" type="hidden" value="https://pivot9.io/thank-you.html"/>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-1" for="name">Full Name</label>
+<input class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pivot-blue focus:border-transparent" id="name" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-1" for="company">Company Name</label>
+<input class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pivot-blue focus:border-transparent" id="company" type="text"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-1" for="email">Work Email</label>
+<input class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pivot-blue focus:border-transparent" id="email" type="email"/>
+</div>
+<div>
+<label class="block text-sm font-medium text-gray-700 mb-1" for="challenge">Your Biggest Sales Challenge (Optional)</label>
+<textarea class="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-pivot-blue focus:border-transparent" id="challenge" rows="3"></textarea>
+</div>
+<button aria-label="Send message to Pivot9" class="w-full bg-pivot-blue hover:bg-blue-500 text-white font-bold py-3 px-6 rounded-lg transition duration-300 focus:outline-none focus:ring-2 focus:ring-pivot-blue focus:ring-offset-2" type="submit">
+                                Send Message
+                            </button>
+</form>
+</div>
+<!-- Direct Call to Action -->
+<div class="bg-pivot-light p-8 rounded-xl flex flex-col justify-center items-center text-center">
+<div class="w-20 h-20 bg-pivot-blue bg-opacity-10 rounded-full flex items-center justify-center mb-6">
+<i class="fas fa-calendar-alt text-pivot-blue text-3xl"></i>
+</div>
+<h3 class="text-xl font-bold mb-4">Tired of forms?</h3>
+<p class="text-gray-600 mb-6">Book a 15-minute strategy call directly with our team to discuss how we can help accelerate your sales pipeline.</p>
+<a class="inline-block bg-white hover:bg-gray-50 text-pivot-blue border border-pivot-blue font-bold py-3 px-8 rounded-full transition duration-300 shadow-sm" href="https://calendly.com/asaf-pivot9/30min">
+                            Schedule Your 15-Minute Strategy Call Now
+                        </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-pivot-dark text-white py-12">
+<div class="container mx-auto px-6">
+<div class="grid md:grid-cols-4 gap-8">
+<div>
+<a class="flex items-center mb-6" href="#">
+<img alt="Pivot9 Logo" class="h-12 w-auto" src="Image.png"/>
+<span class="ml-0 text-xl font-bold">Pivot<span class="text-Pivot-blue">9</span></span>
+</a>
+<p class="text-gray-600">Connecting cybersecurity innovators with their next customers.</p>
+</div>
+<div>
+<h3 class="text-lg font-semibold mb-4">Quick Links</h3>
+<ul class="space-y-2">
+<li><a class="text-gray-600 hover:text-white transition" href="#home">Home</a></li>
+<li><a class="text-gray-600 hover:text-white transition" href="#services">Services</a></li>
+<li><a class="text-gray-600 hover:text-white transition" href="#why">Why Pivot9</a></li>
+<li><a class="text-gray-600 hover:text-white transition" href="#about">About</a></li>
+<li><a class="text-gray-600 hover:text-white transition" href="#contact">Contact</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold mb-4">Services</h3>
+<ul class="space-y-2">
+<li><a class="text-gray-600 hover:text-white transition" href="#">SDR as a Service</a></li>
+<li><a class="text-gray-600 hover:text-white transition" href="#">BDR as a Service</a></li>
+<li><a class="text-gray-600 hover:text-white transition" href="#">Data Enrichment</a></li>
+<li><a class="text-gray-600 hover:text-white transition" href="#">LinkedIn Campaigns</a></li>
+</ul>
+</div>
+<div>
+<h3 class="text-lg font-semibold mb-4">Connect</h3>
+<div class="flex space-x-4 mb-6">
+<a aria-label="External link" class="text-gray-600 hover:text-white transition text-xl" href="#"><i class="fab fa-linkedin-in"></i></a>
+<a aria-label="External link" class="text-gray-600 hover:text-white transition text-xl" href="#"><i class="fab fa-twitter"></i></a>
+</div>
+<p class="text-gray-600">Email: info@pivot9.io</p>
+</div>
+</div>
+<div class="border-t border-gray-800 mt-12 pt-8 text-center text-gray-600">
+<p>© 2025 Pivot9 | All Rights Reserved | pivot9.io</p>
+</div>
+</div>
+</footer>
+<script>
+        // Simple smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  const menuBtn = document.querySelector('button[aria-controls="mobile-menu"]');
+  const mobileMenu = document.getElementById('mobile-menu');
+  if (menuBtn && mobileMenu) {
+    menuBtn.addEventListener('click', function () {
+      const expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !expanded);
+      mobileMenu.classList.toggle('hidden');
+    });
+  }
+});
+</script></body>
+</html>
